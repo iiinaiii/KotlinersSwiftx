@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
-options: "4f053037b05f233b6124ff74f2b1dc3e"
-build_time: [1586603805, 355646000]
-inputs:
-  "/Users/naoki-ishii/develop/iOS/projects/KotlinersSwiftx/KotlinersSwiftx/Scope/ScopeFunction.swift": [1586603805, 318780698]
