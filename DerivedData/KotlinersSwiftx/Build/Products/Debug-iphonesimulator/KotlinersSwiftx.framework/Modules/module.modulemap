@@ -1,0 +1,11 @@
+framework module KotlinersSwiftx {
+  umbrella header "KotlinersSwiftx.h"
+
+  export *
+  module * { export * }
+}
+
+module KotlinersSwiftx.Swift {
+    header "KotlinersSwiftx-Swift.h"
+    requires objc
+}

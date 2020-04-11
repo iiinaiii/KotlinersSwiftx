@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/naoki-ishii/develop/iOS/projects/KotlinersSwiftx/DerivedData/KotlinersSwiftx/Build/Products/Debug-maccatalyst/KotlinersSwiftx.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/naoki-ishii/develop/iOS/projects/KotlinersSwiftx/DerivedData/KotlinersSwiftx/Build/Intermediates.noindex/KotlinersSwiftx.build/Debug-maccatalyst/KotlinersSwiftx.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,10 @@
+framework module KotlinersSwiftx {
+  umbrella header "KotlinersSwiftx.h"
+
+  export *
+  module * { export * }
+}
+
+module KotlinersSwiftx.__Swift {
+    exclude header "KotlinersSwiftx-Swift.h"
+}

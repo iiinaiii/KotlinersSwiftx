@@ -1,0 +1,20 @@
+---
+path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-macabi.swiftmodule'
+dependencies:
+  - mtime:           1583600427000000000
+    path:            '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-macabi.swiftmodule'
+    size:            150308
+  - mtime:           1582956726000000000
+    path:            'usr/include/Darwin.apinotes'
+    size:            1133
+    sdk_relative:    true
+  - mtime:           1583480782000000000
+    path:            'usr/include/objc/ObjectiveC.apinotes'
+    size:            11147
+    sdk_relative:    true
+  - mtime:           1583127920000000000
+    path:            'System/iOSSupport/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface'
+    size:            50012
+    sdk_relative:    true
+version:         1
+...

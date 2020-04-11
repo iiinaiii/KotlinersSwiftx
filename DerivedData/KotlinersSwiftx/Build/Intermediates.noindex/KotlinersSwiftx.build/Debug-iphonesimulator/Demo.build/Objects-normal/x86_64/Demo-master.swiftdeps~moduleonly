@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+options: "3980d204244191992f52b5a1297b9162"
+build_time: [1586603957, 760901000]
+inputs:
+  "/Users/naoki-ishii/develop/iOS/projects/KotlinersSwiftx/Demo/ViewController.swift": [1586603957, 715735095]
+  "/Users/naoki-ishii/develop/iOS/projects/KotlinersSwiftx/Demo/AppDelegate.swift": [1586587741, 957265283]
+  "/Users/naoki-ishii/develop/iOS/projects/KotlinersSwiftx/Demo/SceneDelegate.swift": [1586587741, 964815363]
