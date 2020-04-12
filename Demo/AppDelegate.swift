@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Demo
-//
-//  Created by 石井直貴 on 2020/04/11.
-//  Copyright © 2020 iiinaiii. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

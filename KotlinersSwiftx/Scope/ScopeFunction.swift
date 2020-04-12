@@ -1,11 +1,3 @@
-//
-//  Apply.swift
-//  KotlinersSwiftx
-//
-//  Created by 石井直貴 on 2020/04/11.
-//  Copyright © 2020 iiinaiii. All rights reserved.
-//
-
 import Foundation
 
 public protocol ScopeFunctionProtocol { }
@@ -19,5 +11,9 @@ public extension ScopeFunctionProtocol {
     func also(_ block: (Self) -> Void) -> Self {
         block(self)
         return self
+    }
+
+    func with<T, R>(_ receiver: T? = nil, block: (T?) -> R) -> R {
+        return block(receiver)
     }
 }

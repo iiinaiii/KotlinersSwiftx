@@ -19,6 +19,8 @@
 		3A6CE89D24419FE20047DD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6CE89B24419FE20047DD7C /* LaunchScreen.storyboard */; };
 		3A6CE8A32441D7D00047DD7C /* KotlinersSwiftx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6CE86D24419CD50047DD7C /* KotlinersSwiftx.framework */; };
 		3A6CE8A42441D7D00047DD7C /* KotlinersSwiftx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6CE86D24419CD50047DD7C /* KotlinersSwiftx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3A6CE8AA2441F2CE0047DD7C /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CE8A92441F2CE0047DD7C /* ControlFlow.swift */; };
+		3A6CE8AD2441FD2E0047DD7C /* Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CE8AC2441FD2E0047DD7C /* Standard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		3A6CE89924419FE20047DD7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6CE89C24419FE20047DD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6CE89E24419FE20047DD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6CE8A92441F2CE0047DD7C /* ControlFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
+		3A6CE8AC2441FD2E0047DD7C /* Standard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		3A6CE86F24419CD50047DD7C /* KotlinersSwiftx */ = {
 			isa = PBXGroup;
 			children = (
+				3A6CE8AB2441FD090047DD7C /* Standard */,
+				3A6CE8A82441F23F0047DD7C /* ControlFlow */,
 				3A6CE88724419E840047DD7C /* Scope */,
 				3A6CE87024419CD50047DD7C /* KotlinersSwiftx.h */,
 				3A6CE87124419CD50047DD7C /* Info.plist */,
@@ -164,6 +170,22 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A6CE8A82441F23F0047DD7C /* ControlFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3A6CE8A92441F2CE0047DD7C /* ControlFlow.swift */,
+			);
+			path = ControlFlow;
+			sourceTree = "<group>";
+		};
+		3A6CE8AB2441FD090047DD7C /* Standard */ = {
+			isa = PBXGroup;
+			children = (
+				3A6CE8AC2441FD2E0047DD7C /* Standard.swift */,
+			);
+			path = Standard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6CE8AD2441FD2E0047DD7C /* Standard.swift in Sources */,
 				3A6CE88924419EA10047DD7C /* ScopeFunction.swift in Sources */,
+				3A6CE8AA2441F2CE0047DD7C /* ControlFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
